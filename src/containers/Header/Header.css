@@ -1,0 +1,401 @@
+.custom__header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 8rem;
+    width: 100%;
+    margin-bottom: 5rem;
+
+}
+
+.custom__header_top{
+    display: flex;
+    flex-direction: column;
+    padding: 8rem;
+}
+
+
+
+.custom__header_top h1{
+    margin-top: 6rem;
+    color: white;
+    font-size: 11em;
+    font-family: var(--font-family);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1em;
+    word-spacing: 15px;
+
+}
+
+.custom__header_top p {
+    color: white;
+    font-size: 3em;
+    margin-top: 2rem;
+    font-weight: normal;
+    font-family: var(--font-p);
+
+}
+
+.app__header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.app__header-input {
+    flex-direction: row;
+    margin-top: -2rem;
+    width: 100%;
+}
+
+.app__header-input input {
+    width: 50%;
+    height: 100px;
+    border: 0.25px solid var(--color-white);
+    border-radius: 8px;
+    font-size: 35px;
+    font-family: var(--font-p);
+    color: var(--color-white);
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(hsla(0, 0%, 0%, 0.7), rgba(0, 0, 0, 0.3));
+}
+
+.app__svg svg{
+    color: var(--color-white);
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.custom__button {
+    background-color: rgba(229, 9, 20, 1);
+      color:white;
+      height: 60px;
+      width: 150px;
+      font-family: var(--font-p);
+      font-size: 25px;
+      border-radius: 6px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  }
+
+.flex__aline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 3rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+.logo__size{
+    height: 110px;
+    width: 275px;
+}
+
+.app__svg{
+    cursor: pointer;
+    width: 250px;
+    height: 100px;
+    background-color: var(--color-red);
+    border: 1px solid var(--color-red);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.app__header button:hover {
+    opacity: 90%;
+
+}
+.app__svg :hover{
+    opacity: 90%;
+
+}
+
+.app__svg p{
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: var(--font-p);
+
+}
+
+
+@media screen and (max-width :1050px) {
+    .custom__header_top h1{
+        font-size: 7em;
+    }
+    .custom__header_top{
+        padding: 1rem;
+    }
+
+    .custom__header_top p {
+        color: white;
+        font-size: 35px;
+        font-weight: normal;
+        font-family: var(--font-p);
+        margin-top: 2rem;  
+    }
+
+    .app__header-input {
+        flex-direction: row;
+        margin-top: 2rem;
+    }
+
+    .custom__header_top p{
+        font-size: 35px;
+
+    }
+    .app__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .custom__header{
+        padding: 4rem;
+    }
+    .flex__aline{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin:5rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+       
+    }
+
+    .app__header-input input{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .app__svg p{
+        font-size: 30px;
+
+    }
+    .app__svg svg{
+        height: 40%;
+        width: 30px;
+    }
+
+
+    .custom__button{
+        height: 50px;
+        width: 125px;
+    }
+
+    .logo__size{
+        height: 70px;
+        width: 175px;
+    }
+
+    
+}
+@media screen and (max-width : 650px) {
+
+    .flex__aline{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin:3rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .custom__button{
+        height: 40px;
+        width: 110px;
+        font-size: 18px;
+    }
+    .app__header button:hover {
+        opacity: 50%;
+    
+    }
+    .logo__size{
+        height: 40px;
+        width: 110px;
+    }
+    .custom__header{
+        padding: 1rem;
+    }
+
+    .custom__header_top h1{
+        font-size: 4em;
+        line-height: 1.1em;
+    }
+
+    .app__header-input p{
+        font-size: 25px;
+    }
+
+    .custom__header_top p{
+        font-size: 25px;
+        margin-top: 0rem;
+    }
+
+    .app__header-input input{
+        width: 100%;
+        height: 70px;
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        margin-right: 0rem;
+
+    }
+
+    .app__svg{
+        width: 50%;
+        height: 70px;
+    }
+
+    .app__svg p{
+        font-size: 25px;
+    }
+
+    .app__svg svg{
+        height: 50%;
+    }
+
+    .app__header-input {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .custom__header_top p {
+   
+        color: white;
+        font-size: 25px;
+        font-weight: normal;
+        font-family: var(--font-p);
+        margin-top: 2rem;
+    
+    }
+      
+
+}
+@media screen and (max-width : 400px) {
+    .custom__header{
+        padding: 0rem;
+    }
+   .custom__header_top h1{
+    font-size: 45px;
+   }
+
+
+   .app__svg p{
+    font-size: 18px;
+    }
+
+    .app__header-input input{
+        height: 60px;
+        width: 90%;
+        font-size: 18px;
+    }
+
+    .app__svg svg{
+        width: 30px;
+        height: 40%;
+    }
+
+    .app__svg{
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 60px;
+    }
+    .custom__header_top p {
+   
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        font-family: var(--font-p);
+        margin-top: 1rem;
+    
+    }
+
+}
+
+@media screen and (max-width : 320px) {
+    .custom__header{
+     padding: 0rem;
+    }
+
+   .custom__header_top h1{
+    font-size: 40px;
+   }
+
+   .custom__header__top p{
+    font-size: 15px;
+   }
+
+   .app__svg p{
+    font-size: 18px;
+   }
+
+    .app__header-input{
+        margin-top: 1rem;
+    }
+
+    .app__svg svg{
+        width: 30px;
+        height: 40%;
+    }
+
+    .app__svg{
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 60px;
+    }
+
+    .logo__size{
+        height: 20px;
+        width: 70px;
+    }
+
+    .custom__button{
+        width: 30%;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .app__header-input input{
+        height: 50px;
+        font-size: 15px;
+    }
+
+    
+
+}
