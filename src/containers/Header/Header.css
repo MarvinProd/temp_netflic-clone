@@ -4,8 +4,8 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-top: 5rem;
-    padding: 8rem;
+    margin-top: 2rem;
+    padding: 5rem;
     width: 100%;
     
 
@@ -14,27 +14,27 @@
 .custom__header_top{
     display: flex;
     flex-direction: column;
-    padding: 8rem;
+    padding: 4rem;
 }
 
 
 
 .custom__header_top h1{
-    margin-top: 6rem;
+    margin-top: 2rem;
     color: white;
-    font-size: 11em;
+    font-size: 75px;
     font-family: var(--font-family);
     font-weight: bold;
     text-align: center;
     line-height: 1em;
-    word-spacing: 15px;
+    word-spacing: 12px;
 
 }
 
 .custom__header_top p {
     color: white;
-    font-size: 3em;
-    margin-top: 2rem;
+    font-size: 25px;
+    margin-top: 1rem;
     font-weight: normal;
     font-family: var(--font-p);
 
@@ -55,11 +55,11 @@
 }
 
 .app__header-input input {
-    width: 50%;
-    height: 100px;
+    width: 40%;
+    height: 60px;
     border: 0.25px solid var(--color-white);
     border-radius: 8px;
-    font-size: 35px;
+    font-size: 20px;
     font-family: var(--font-p);
     color: var(--color-white);
     margin-right: 2rem;
@@ -69,19 +69,18 @@
 
 .app__svg svg{
     color: var(--color-white);
-    width: 50px;
-    height: 50px;
-    font-size: 24px;
+    width: 20px;
+    height: 20px;
     cursor: pointer;
 }
 
 .custom__button {
     background-color: rgba(229, 9, 20, 1);
       color:white;
-      height: 60px;
-      width: 150px;
+      height: 30px;
+      width: 100px;
       font-family: var(--font-p);
-      font-size: 25px;
+      font-size: 15px;
       border-radius: 6px;
       border: none;
       outline: none;
@@ -97,19 +96,19 @@
     left: 0;
     right: 0;
     top: 0;
-    margin: 3rem;
-    margin-right: 15rem;
-    margin-left: 15rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
 }
 .logo__size{
-    height: 110px;
-    width: 275px;
+    height: 50px;
+    width: 125px;
 }
 
 .app__svg{
     cursor: pointer;
-    width: 250px;
-    height: 100px;
+    width: 170px;
+    height: 60px;
     background-color: var(--color-red);
     border: 1px solid var(--color-red);
     border-radius: 8px;
@@ -135,7 +134,7 @@
     cursor: pointer;
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 18px;
     font-weight: 500;
     font-family: var(--font-p);
 

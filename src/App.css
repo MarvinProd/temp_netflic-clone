@@ -19,6 +19,8 @@
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
+    width: 100%;
+    background-blend-mode: luminosity;
   }
  
   

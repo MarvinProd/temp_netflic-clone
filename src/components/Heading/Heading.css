@@ -9,14 +9,14 @@
 
 .app__heading h1{
     color: white;
-    font-size: 6em;
+    font-size: 45px;
     font-weight: bold;
     font-family: var(--font-family);
 }
 
 .app__heading p{
     color: white;
-    font-size: 2.5em;
+    font-size: 25px;
     margin-top: 2rem;
     font-family: var(--font-p);
 }
