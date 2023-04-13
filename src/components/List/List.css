@@ -61,3 +61,210 @@
     padding: 2rem;
 }
 
+
+@media screen and (max-width: 1050px){
+
+    .svg__div svg{
+        color: white;
+        width: 80%;
+        height: 50px;
+    }
+    
+    .app__listtop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.3rem;
+        width: 100%;
+    }
+    
+    .app__list{
+        width: 90%;
+        background: rgba(45, 45, 45, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .app__list_dp{
+        width: 90%;
+        margin-top: 2px;
+        border-top: 1px solid black;
+        background: rgba(45, 45, 45, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    
+    }
+    
+    .app__list_dp p{
+        color: white;
+        font-size: 30px;
+        margin-bottom: 2rem;
+        font-weight: 100;
+        font-family: var(--font-p);
+    }
+    
+    
+    .app__list h1{
+        text-align: center;
+        font-family: var(--font-p);
+        font-size: 30px;
+        font-weight: 100;
+        margin: 0;
+        
+    }
+    
+    .svg__div{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .svg__div svg{
+        color: white;
+        width: 50%;
+        height: 50px;
+    }
+    
+    .app__listtop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.2rem;
+        width: 100%;
+    }
+    
+    .app__list{
+        width: 90%;
+        background: rgba(45, 45, 45, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .app__list_dp{
+        width: 90%;
+        margin-top: 2px;
+        border-top: 1px solid black;
+        background: rgba(45, 45, 45, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    
+    }
+    
+    .app__list_dp p{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 2rem;
+        font-weight: 100;
+        font-family: var(--font-p);
+    }
+    
+    
+    .app__list h1{
+        text-align: center;
+        font-family: var(--font-p);
+        font-size: 18px;
+        font-weight: 100;
+        margin: 0;
+        
+    }
+    
+    .svg__div{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .svg__div svg{
+        color: white;
+        width: 50%;
+        height: 30px;
+    }
+    
+    .app__listtop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.1rem;
+        width: 100%;
+    }
+    
+    .app__list{
+        width: 90%;
+        background: rgba(45, 45, 45, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .app__list_dp{
+        width: 90%;
+        margin-top: 2px;
+        border-top: 1px solid black;
+        background: rgba(45, 45, 45, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    
+    }
+    
+    .app__list_dp p{
+        color: white;
+        font-size: 15px;
+        margin-bottom: 1rem;
+        font-weight: 100;
+        font-family: var(--font-p);
+    }
+    
+    
+    .app__list h1{
+        text-align: center;
+        font-family: var(--font-p);
+        font-size: 15px;
+        font-weight: 100;
+        margin: 0;
+        
+    }
+    
+    .svg__div{
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+
+}
+
+
+
+
+
+

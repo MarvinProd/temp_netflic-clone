@@ -7,7 +7,7 @@
     margin-top: 5rem;
     padding: 8rem;
     width: 100%;
-    margin-bottom: 5rem;
+    
 
 }
 
@@ -51,6 +51,7 @@
     flex-direction: row;
     margin-top: -2rem;
     width: 100%;
+    margin-bottom: 6rem;
 }
 
 .app__header-input input {
@@ -144,6 +145,10 @@
 @media screen and (max-width :1050px) {
     .custom__header_top h1{
         font-size: 7em;
+    }
+
+    .app__header-input{
+        margin-bottom: 3rem;
     }
     .custom__header_top{
         padding: 1rem;

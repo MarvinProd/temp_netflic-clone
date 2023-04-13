@@ -10,23 +10,16 @@ import {AiOutlineRight} from 'react-icons/ai'
 import Footer from '../../components/Footer/Footer'
 
 function Body() {
-
-
-
-
   return (
     <div className='app__body'>
-
       <div className='app__top'>
         <Heading
         title='Enjoy on your TV.' 
         text='Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.' />
-      
         <div className='tv__bg' >
         <video  autoPlay loop muted src={netflix} />
         </div> 
       </div>
-
       <div className='app__top'>
       <img src={img1} alt=''/>
         <Heading
@@ -95,24 +88,13 @@ function Body() {
                 <p>Get Started</p>
                 <AiOutlineRight/>
             </div>
-
         </div>
-  
         </div>
-
-
-
-
     </div>
       </div> 
-
-
-
       <div className='app__footer'>
         <Footer/>
-       
       </div>
-      
     </div>
 )}
 

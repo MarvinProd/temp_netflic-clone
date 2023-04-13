@@ -54,6 +54,9 @@ function Footer() {
 
         </div>
 
+
+        <p style={{textDecoration:"none",marginTop:'2rem', marginBottom:'1rem'}}>Netflix Nigeria</p>
+
         
 
 
