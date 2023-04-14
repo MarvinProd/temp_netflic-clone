@@ -10,7 +10,7 @@ const List = ({title,text1,text2}) => {
 
         <div className='app__listtop'>
             <div className='app__list'>
-            <div className='svg__div' >
+            <div className='svg__div_text' >
                 <h1>
                 {title}
             </h1>
