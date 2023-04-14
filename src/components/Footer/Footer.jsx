@@ -26,8 +26,7 @@ function Footer() {
         <p>Terms of Use</p>
         <p>Corporate Information</p>
         <p>Legal Notices</p>
-
-
+        
         </div>
 
         <div>
@@ -38,12 +37,9 @@ function Footer() {
         <p>Contact Us</p>
         <p>Only on Netflix</p>
 
-
         </div>
 
-
         </div>
-
 
         <div className='app__block'> 
             <ImSphere color='#FFFFFF'/>
@@ -54,12 +50,7 @@ function Footer() {
 
         </div>
 
-
         <p style={{textDecoration:"none",marginTop:'2rem', marginBottom:'1rem'}}>Netflix Nigeria</p>
-
-        
-
-
       
     </div>
   )

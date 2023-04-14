@@ -182,7 +182,6 @@
         font-size: 18px;
         font-weight: 100;
         margin: 0;
-        
     }
     
     .svg__div{
@@ -196,7 +195,7 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
     .svg__div svg{
         color: white;
@@ -258,10 +257,9 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-items:  flex-start;
-        padding: 1rem;
+        align-items:  center;
+        padding: 10px;
     }
-
 }
 
 

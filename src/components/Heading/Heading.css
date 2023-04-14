@@ -50,7 +50,7 @@
         font-size: 40px;
         text-align: center;
     }
-    
+
     .app__heading p{
         text-align: center;
         font-size: 15px;
@@ -58,7 +58,7 @@
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 
     .app__heading{
         padding: 0rem;
