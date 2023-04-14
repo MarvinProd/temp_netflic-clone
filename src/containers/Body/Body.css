@@ -156,7 +156,7 @@
         padding: 5rem;
     }
     
-  .app__top{
+   .app__top{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -165,8 +165,8 @@
     min-height: 80vh;
     width: 100%;
     border-top: 15px solid rgb(53, 52, 52);
-
     }
+
     .tv__bg {
         background: url('../../assets/tv.png');
         background-position: center;
@@ -175,24 +175,23 @@
         background-attachment: scroll;
         display: flex;
         flex-direction: column;
-        padding: 1rem;
         max-width: 300px;
         align-items: center;
         justify-content: center;
-        height: 100%;
-        
+        height: 100%;     
     }
 
     .tv__bg video{
-        width: 200px;
+        width: 250px;
         flex: 1;
+        margin-left: 5rem;
         margin-bottom: 1rem;
-
     }
+
     .app__top img{
         height: 100%;
         width: 300px;
-        margin-right: 5rem;
+        margin-right: 1rem;
     }
 
     .app__footer{
@@ -201,12 +200,9 @@
         justify-content: flex-start;
         min-height: 50vh;
         width: 100%;
-        border-top: 15px solid rgb(53, 52, 52);
-    
-    }
+        border-top: 15px solid rgb(53, 52, 52);    
+    } 
 
-
-    
 }
 
 @media screen and (max-width: 650px){
@@ -314,8 +310,7 @@
         justify-content: space-evenly ;
         min-height: 80vh;
         width: 100%;
-        border-top: 15px solid rgb(53, 52, 52);
-    
+        border-top: 15px solid rgb(53, 52, 52);    
         }
 
 }
