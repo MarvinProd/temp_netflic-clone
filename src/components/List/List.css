@@ -205,7 +205,7 @@
     
     .app__listtop{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 0.1rem;
