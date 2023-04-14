@@ -35,7 +35,7 @@ const List = ({title,text1,text2}) => {
             { toggleMenu && (
                 <div className='app__list_dp'>
 
-                <div className='svg__div' >
+                <div className='svg__div__text' >
                     <p>
                         {text1}
                    </p>
