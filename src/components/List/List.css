@@ -212,6 +212,7 @@
         padding: 0.1rem;
         width: 100%;
     }
+
     
     .app__list{
         width: 90%;
@@ -221,6 +222,7 @@
         justify-content: space-between;
     
     }
+
     .app__list_dp{
         width: 90%;
         margin-top: 2px;
@@ -230,13 +232,12 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        text-align: left;
-    
+        text-align: left;    
     }
     
     .app__list_dp p{
         color: white;
-        font-size: 15px;
+        font-size: 12px;
         margin-bottom: 1rem;
         font-weight: 100;
         font-family: var(--font-p);
@@ -246,18 +247,18 @@
     .app__list h1{
         text-align: center;
         font-family: var(--font-p);
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 100;
         margin: 0;
+        text-align: left;
         
     }
     
-    .svg__div{
-        
+    .svg__div{        
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items:  flex-start;
         padding: 1rem;
     }
 
