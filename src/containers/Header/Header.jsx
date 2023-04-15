@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../../assets/logo.svg'
 import './Header.css';
 import {AiOutlineRight} from 'react-icons/ai'
+import {NavLink} from 'react-router-dom'
 
 function Header() {
   return (
@@ -10,7 +11,9 @@ function Header() {
         <div className='nav flex__aline'>
             <img src={logo} alt='ne' className='logo__size'/>
 
-            <button className='custom__button'> Sign Up</button>
+            <NavLink to='/login'><button className='custom__button'> Sign Up</button></NavLink>
+
+            
 
         </div>
 

@@ -1,16 +1,22 @@
 import React from 'react'
-import Body from './containers/Body/Body'
-import Header from './containers/Header/Header'
 import './App.css';
+import {Route,Routes,HashRouter} from 'react-router-dom'
+import Home from './Home/Home';
+import Login from './Routers/Login/Login';
 
 
 function App() {
   return (
     <div>
-    
-    <Header/>
-    <Body/>
+      <HashRouter>
+      <Routes>
+      <Route path='/' element= {<Home/>}/>
+      <Route path='/Login' element= {<Login/>}/>
+      </Routes>
+      </HashRouter>
       
+        
+    
     </div>
   )
 }
