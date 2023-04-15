@@ -1,7 +1,6 @@
 import React from 'react'
 import logo from '../../assets/logo.svg'
 import './Login.css';
-import {AiOutlineRight} from 'react-icons/ai'
 import {NavLink} from 'react-router-dom'
 
 
