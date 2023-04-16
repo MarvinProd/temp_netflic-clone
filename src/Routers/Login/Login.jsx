@@ -31,7 +31,7 @@ function Login() {
 
             <div className="input__value">
               <div>
-              <input type='checkbox' />
+              <input type='checkbox'/>
 
               </div>
 
