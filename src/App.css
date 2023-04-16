@@ -16,12 +16,14 @@
   .app__bg {
     background: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/header.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: 120%;
     background-repeat: repeat;
     background-attachment: fixed;
     width: 100%;
     background-blend-mode: luminosity;
   }
+
+
 
     
   .app__login_bg {
@@ -83,6 +85,32 @@
     min-height: 10vh;
   }
   
+
+@media screen and (max-width : 650px) {
+  .app__bg {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/header.jpg');
+    background-position: center;
+    background-size: 400%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-blend-mode: luminosity;
+  }
+
+
+
+    
+  .app__login_bg {
+    background: black;
+    background-position: center;
+    background-size: 400%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-blend-mode: luminosity;
+  }
+  
+}  
   
 
 

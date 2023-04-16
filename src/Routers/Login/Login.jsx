@@ -10,9 +10,6 @@ function Login() {
 
     <div className='nav flex__aline'>
         <img src={logo} alt='ne' className='logo__size'/>
-
-
-
     </div>
 
     <div className='custom__header_login'>
@@ -22,12 +19,34 @@ function Login() {
 
         <h1>Sign In</h1>
 
-            <input type="email" placeholder="Enter your email address" />
-            <input type="password" placeholder='Input Password' />
+            <input style={{marginTop:'1rem'}} type="email" placeholder="Enter your email address" />
+            <input style={{marginTop:'1rem'}} type="password" placeholder='Input Password' />
+
+            <div className="custom__button_login">
 
             <NavLink to='/login'>
-              <button className='custom__button_login'> Sign Up</button></NavLink>
+              <button> Sign Up</button></NavLink>
             
+            </div>
+
+            <div className="input__value">
+              <div>
+              <input type='checkbox' />
+
+              </div>
+
+              <div className='div_rem'>
+                <p style={{color:'#FFFFFF'}}>Remember Me</p>
+
+                <p style={{color:'#FFFFFF'}}> Need Help?</p>
+              </div>
+              
+
+              
+            </div>
+            
+
+           
          </div>
         
 
