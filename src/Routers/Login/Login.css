@@ -346,9 +346,9 @@ input[type=checkbox] {
         background: none;
         display: flex;
         padding: 5%;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        justify-content: flex-start;
         flex-direction: column;
         width: 100%;
         max-height: 50vh;

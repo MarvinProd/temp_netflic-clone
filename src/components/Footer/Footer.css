@@ -1,9 +1,10 @@
 .app__footer_div{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start ;
     align-items: center;
     width: 80%;
+    flex-wrap: wrap;
     margin-top: 1rem;
     
 }
@@ -12,8 +13,18 @@
     padding: 0rem;
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 100%;
     margin-left: 10rem;
+}
+
+.app__footer_ a{
+    color: #FFFFFFB3;
+    font-family: var(--font-p);
+
+    font-size: 15px;
+    line-height: 35px;
+    text-decoration: underline;
+
 }
 
 .app__footer_ p{
@@ -117,6 +128,16 @@
         margin-top: 3rem;
         
     }
+
+        .footer-link-item_q{
+            box-sizing: border-box;
+            display: inline-block;
+            margin-bottom: 1px;
+            min-width: 100px;
+            padding: 0 12px 0 0;
+            vertical-align: top;
+            width: 100%;
+        }
     
    
     

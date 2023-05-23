@@ -2,43 +2,77 @@ import React from 'react'
 import './Footer.css'
 import {ImSphere} from 'react-icons/im'
 import {MdArrowDropDown} from 'react-icons/md'
+import Link from '../List_link_data/Link'
 
 function Footer() {
   return (
     <div className='app__footer_'>
 
-        <p>Questions? Contact us.</p>
+    <a href='https://help.netflix.com/en/contactus'>Questions? Contact us.</a>
 
         <div className='app__footer_div'>
 
-        <div >
-        <p>FAQ</p>
-        <p>Media Center</p>
-        <p>Ways to Watch</p>
-        <p>Cookie Preferences</p>
-        <p>Speed Test</p>
-
-        </div>
-
-        <div>
-        <p>Help Center</p>
-        <p>Investor Relations</p>
-        <p>Terms of Use</p>
-        <p>Corporate Information</p>
-        <p>Legal Notices</p>
-        
-        </div>
-
-        <div>
-
-        <p>Account</p>
-        <p>Jobs</p>
-        <p>Jobs</p>
-        <p>Contact Us</p>
-        <p>Only on Netflix</p>
-
-        </div>
-
+        <Link 
+          text="FAQ"
+          link="/"
+          />
+          <Link 
+          text="Help Center"
+          link="/"
+          />
+          <Link 
+          text="Account"
+          link="/"
+          />
+          <Link 
+          text="Media Center"
+          link="/"
+          />
+          <Link 
+          text="Investor Relations"
+          link="/"
+          />
+          <Link 
+          text="Jobs"
+          link="/"
+          />
+          <Link 
+          text="Ways to Watch"
+          link="/"
+          />
+          <Link 
+          text="Terms of Use"
+          link="/"
+          />
+          <Link 
+          text="Privacy"
+          link="/"
+          />
+          <Link 
+          text="Cookie Preferences"
+          link="/"
+          />
+          <Link 
+          text="Corporate Information"
+          link="/"
+          />
+          <Link 
+          text="Contact Us"
+          link="/"
+          />
+          <Link 
+          text="Speed Test"
+          link="/"
+          />
+          <Link 
+          text="Legal Notices"
+          link="/"
+          />
+          <Link 
+          text="Only on Netflix"
+          link="/"
+          />
+         
         </div>
 
         <div className='app__block'> 
